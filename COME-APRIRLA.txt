@@ -1,0 +1,40 @@
+CUSTODI DI SANNICOLA - COME APRIRE L'APP SUL TUO COMPUTER
+=========================================================
+
+COSA E'
+Un'app civica per il territorio di Sannicola: segnalazioni, SOS, mappa reale
+con le vie di Sannicola e Chiesanuova, area Comune, area Polizia Locale,
+statistiche, notizie dal Comune, bandi.
+
+PRIMO PASSO (una sola volta): installare Node.js
+------------------------------------------------
+1. Vai su https://nodejs.org
+2. Scarica la versione "LTS" e installala (avanti, avanti, fine).
+
+APRIRE L'APP
+------------
+1. Scompatta l'archivio "Custodi-di-Sannicola.zip" (tasto destro > Estrai qui).
+2. Entra nella cartella "Custodi-di-Sannicola".
+3. Apri il terminale dentro quella cartella:
+   - Windows: clicca sulla barra degli indirizzi della cartella, scrivi cmd
+     e premi Invio.
+   - Mac: apri l'app Terminale, scrivi cd (spazio), trascina la cartella
+     nella finestra del Terminale e premi Invio.
+4. Digita:      npm install
+   e premi Invio (puo servire qualche minuto).
+5. Digita:      npm run dev
+   e premi Invio.
+6. Nel terminale compare una riga con un indirizzo, di solito
+   http://localhost:8080 : aprilo nel browser.
+
+Per chiudere l'app: premi Ctrl+C nel terminale.
+
+DA SAPERE
+---------
+- I dati che vedi sono di esempio: si azzerano quando ricarichi la pagina.
+- I numeri di telefono locali, gli importi e le notizie sono segnaposto da
+  sostituire con quelli ufficiali del Comune.
+- La mappa e reale (OpenStreetMap): per mostrarsi serve una connessione
+  a internet.
+- L'archivio NON contiene file con segreti o chiavi: se in futuro collegherai
+  un archivio dati reale, quel file verra creato a parte.
